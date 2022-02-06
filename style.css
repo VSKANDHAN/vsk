@@ -1,0 +1,556 @@
+            .maincontainer {
+                padding-top: 60px;
+            }
+            
+             ::-webkit-scrollbar {
+                width: 6px;
+            }
+            
+             ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+            }
+            
+             ::-webkit-scrollbar-thumb {
+                background: #888;
+            }
+            
+             ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+            
+            #collapsibleNavbar {
+                justify-content: flex-end;
+            }
+            
+            .home-text h1 {
+                font-size: 46px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                line-height: 56px;
+                font-weight: 600;
+                margin-top: 0;
+            }
+            
+            .home-text h3 {
+                color: #ffffff;
+                text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+                font-size: 40px;
+                font-weight: bolder;
+            }
+            
+            .home-text p {
+                margin-top: 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: 250;
+                font-style: normal;
+                line-height: 1.75em;
+            }
+            
+            .home-text {
+                align-items: center;
+                margin-top: 150px;
+                text-align: left;
+                margin-bottom: 10px;
+                margin-right: auto;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            .homeprofile {
+                width: 380px;
+                height: 380px;
+                margin-top: 20%;
+                border-radius: 390px;
+                -webkit-border-radius: 390px;
+                -moz-border-radius: 390px;
+                background-color: rgb(67, 67, 67);
+                box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+            }
+            
+            .homeprofile {
+                margin-right: 120px;
+            }
+            
+            @media (max-device-width: 992px) {
+                .homeprofile {
+                    text-align: center;
+                    width: 255px;
+                    height: 255px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            @media (max-device-width: 992px) {
+                .home-text {
+                    text-align: center;
+                    margin-top: 10%;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            @media (max-device-width: 992px) {
+                .home-para {
+                    text-align: justify;
+                    margin-left: 10%;
+                    margin-right: 15%;
+                }
+            }
+            
+            @media (max-device-width: 992px) {
+                .profilepic {
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            
+            .About .container {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            .About {
+                color: #ffffff;
+            }
+            
+            .About h1 {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 0;
+                line-height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #aaaaaa;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .About .section-title p {
+                margin: -15px 0 15px 0;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: #fff
+            }
+            
+            .About h2 {
+                color: rgb(31, 211, 214);
+                font-weight: 700;
+                font-size: 30px;
+            }
+            
+            .About p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                font-weight: 280;
+                font-style: normal;
+                line-height: 1.75em;
+            }
+            
+            .About ul {
+                font-size: 20px;
+                padding: 0;
+            }
+            
+            .About a {
+                color: rgb(31, 211, 214);
+                text-decoration: none;
+            }
+            
+            ul {
+                list-style-type: none;
+                color: rgb(31, 211, 214);
+            }
+            
+            ul span {
+                color: #ffffff;
+            }
+            
+            ul strong {
+                color: #ffffff;
+            }
+            
+            .progress-bar {
+                background-color: rgb(31, 211, 214) !important;
+            }
+            
+            .skills {
+                display: block;
+                font-weight: 600;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .val {
+                float: right;
+                font-style: normal;
+            }
+            
+            .interests-container .icon-box {
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.08);
+                transition: ease-in-out 0.3s;
+            }
+            
+            .interests-container h3 {
+                font-weight: 700;
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                font-size: 16px;
+                color: #fff;
+            }
+            
+            .interests-container .icon-box i {
+                font-size: 32px;
+                padding-right: 10px;
+                line-height: 1;
+            }
+            
+            .Resume .container {
+                background-color: rgba(0, 0, 0, 0.8);
+                transition: ease-in-out;
+            }
+            
+            .Resume {
+                color: #ffffff;
+            }
+            
+            .Resume h1 {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 0;
+                line-height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #aaaaaa;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .Resume .section-title p {
+                margin: -15px 0 15px 0;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: #fff
+            }
+            
+            .Resume .Resume-title {
+                font-size: 26px;
+                font-weight: 700;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: #fff;
+            }
+            
+            .Resume .Resume-item {
+                padding: 0 0 20px 20px;
+                margin-top: -2px;
+                border-left: 2px solid rgba(255, 255, 255, 0.2);
+                position: relative;
+            }
+            
+            .Resume .Resume-item h4 {
+                line-height: 18px;
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: rgb(31, 211, 214);
+                margin-bottom: 10px;
+            }
+            
+            .Resume .Resume-item h5 {
+                font-size: 16px;
+                background: rgba(255, 255, 255, 0.15);
+                padding: 5px 15px;
+                display: inline-block;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            
+            .Resume .Resume-item::before {
+                content: "";
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-radius: 50px;
+                left: -9px;
+                top: 0;
+                background: rgb(31, 211, 214);
+                border: 2px solid rgb(31, 211, 214)e;
+            }
+            
+            .download .btn {
+                background-color: rgb(31, 211, 214);
+                border: none;
+                color: white;
+                padding: 12px 30px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+            
+            .download .btn:hover {
+                background-color: RoyalBlue;
+            }
+            
+            .Services .container {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            .Services {
+                color: #ffffff;
+            }
+            
+            .Services h1 {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 0;
+                line-height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #aaaaaa;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .Services .section-title p {
+                margin: -15px 0 15px 0;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: #fff
+            }
+            
+            .Services .icon-box {
+                text-align: center;
+                background: rgba(204, 204, 204, 0.1);
+                padding: 80px 20px;
+                transition: all ease-in-out 0.3s;
+            }
+            
+            .Services .icon-box .icon {
+                margin: 0 auto;
+                width: 64px;
+                height: 64px;
+                background: rgb(31, 211, 214);
+                border-radius: 5px;
+                transition: all 0.3s ease-out 0s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                transform-style: preserve-3d;
+            }
+            
+            .Services .icon-box .icon i {
+                color: #fff;
+                font-size: 28px;
+            }
+            
+            .Services .icon-box .icon::before {
+                position: absolute;
+                content: "";
+                left: -8px;
+                top: -8px;
+                height: 100%;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.15);
+                border-radius: 5px;
+                transition: all 0.3s ease-out 0s;
+                transform: translateZ(-1px);
+            }
+            
+            .Services .icon-box h4 {
+                font-weight: 700;
+                margin-bottom: 15px;
+                font-size: 24px;
+            }
+            
+            .Services .icon-box h4 a {
+                color: #fff;
+            }
+            
+            .Services .icon-box p {
+                line-height: 24px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            
+            .Services .icon-box:hover {
+                background: rgb(31, 211, 214);
+                border-color: rgb(31, 211, 214);
+            }
+            
+            .Services .icon-box:hover .icon {
+                background: #fff;
+            }
+            
+            .Services .icon-box:hover .icon i {
+                color: rgb(31, 211, 214);
+            }
+            
+            .Services .icon-box:hover .icon::before {
+                background: rgb(131, 141, 141);
+            }
+            
+            .Services .icon-box:hover h4 a,
+            .Services .icon-box:hover p {
+                color: #fff;
+            }
+            
+            .Contact .container {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            .Contact {
+                color: #ffffff;
+            }
+            
+            .Contact h1 {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 0;
+                line-height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #aaaaaa;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .Contact .section-title p {
+                margin: -15px 0 15px 0;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: #fff
+            }
+            
+            .Contact .section-title p {
+                margin: -15px 0 15px 0;
+                font-size: 32px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "Poppins", sans-serif;
+                color: #fff
+            }
+            
+            .Contact .icon-box {
+                text-align: center;
+                background: rgba(204, 204, 204, 0.1);
+                padding: 80px 20px;
+                transition: all ease-in-out 0.3s;
+            }
+            
+            .Contact .icon-box .icon {
+                margin: 0 auto;
+                width: 64px;
+                height: 64px;
+                background: rgb(31, 211, 214);
+                border-radius: 5px;
+                transition: all 0.3s ease-out 0s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                transform-style: preserve-3d;
+            }
+            
+            .Contact .icon-box .icon i {
+                color: #fff;
+                font-size: 28px;
+            }
+            
+            .Contact .icon-box .icon::before {
+                position: absolute;
+                content: "";
+                left: -8px;
+                top: -8px;
+                height: 100%;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.15);
+                border-radius: 5px;
+                transition: all 0.3s ease-out 0s;
+                transform: translateZ(-1px);
+            }
+            
+            .Contact .icon-box h4 {
+                font-weight: 700;
+                margin-bottom: 15px;
+                font-size: 24px;
+            }
+            
+            .Contact .icon-box h4 a {
+                color: #fff;
+            }
+            
+            .Contact .icon-box p {
+                line-height: 24px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            
+            .Contact .icon-box:hover {
+                background: rgb(31, 211, 214);
+                border-color: rgb(31, 211, 214);
+            }
+            
+            .Contact .icon-box:hover .icon {
+                background: #fff;
+            }
+            
+            .Contact .icon-box:hover .icon i {
+                color: rgb(31, 211, 214);
+            }
+            
+            .Contact .icon-box:hover .icon::before {
+                background: rgb(131, 141, 141);
+            }
+            
+            .Contact .icon-box:hover h4 a,
+            .Contact .icon-box:hover p {
+                color: #fff;
+            }
+            
+            .footer {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #f1f1f1;
+                background-color: rgba(0, 0, 0, 0.8);
+                text-align: center;
+            }
+            
+            .footer h6 {
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .footer a {
+                color: rgb(31, 211, 214);
+                text-decoration: none;
+                font-family: "Poppins", sans-serif;
+                font-weight: bold;
+            }
+            
+            .footer a:hover {
+                color: rgb(211, 224, 22);
+            }
+            
+            .About a:hover {
+                color: rgb(211, 224, 22);
+            }
